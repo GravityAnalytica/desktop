@@ -1,17 +1,17 @@
 {
-  "name": "mattermost-desktop",
-  "productName": "Mattermost",
+  "name": "gravity-analytica-chat",
+  "productName": "Gravity Analytica LLC Chat",
   "version": "4.7.0-develop",
-  "description": "Mattermost",
+  "description": "Gravity Analytica",
   "main": "main.js",
-  "author": "Mattermost, Inc. <feedback@mattermost.com>",
+  "author": "Gravity Analytica LLC. <team@gravityanalytica.com>",
   "license": "Apache-2.0",
   "engines": {
     "node": ">=4.2.0"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mattermost/desktop.git"
+    "url": "git://github.com/GravityAnalytica/desktop"
   },
   "scripts": {
     "postinstall": "electron-builder install-app-deps && npm run extract-dict",
