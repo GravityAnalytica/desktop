@@ -11,7 +11,7 @@
   },
   "rules": {
     "header/header": [2, "line", [
-      " Copyright (c) 2016-present Mattermost, Inc. All Rights Reserved.",
+      " Copyright (c) 2020-present Gravity Analytica LLC All Rights Reserved.",
       " See LICENSE.txt for license information."
     ]],
     "import/no-commonjs": 2,
@@ -106,9 +106,7 @@
       ],
       "rules": {
         "header/header": [2, "line", [
-          " Copyright (c) 2015-2016 Yuya Ochiai",
-          " Copyright (c) 2016-present Mattermost, Inc. All Rights Reserved.",
-          " See LICENSE.txt for license information."
+          " Copyright (c) 2020-present Gravity Analytica LLC"
         ]]
       }
     }

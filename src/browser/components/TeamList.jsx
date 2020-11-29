@@ -174,7 +174,7 @@ export default class TeamList extends React.Component {
     return (
       <ListGroup className='teamList'>
         { teamNodes }
-        // { addServerForm }
+        { addServerForm }
         { removeServerModal}
       </ListGroup>
     );
