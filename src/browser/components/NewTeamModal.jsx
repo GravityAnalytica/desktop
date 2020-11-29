@@ -27,11 +27,11 @@ export default class NewTeamModal extends React.Component {
 
   initializeOnShow() {
     this.setState({
-      teamName: this.props.team ? this.props.team.name : '',
-      teamUrl: this.props.team ? this.props.team.url : '',
-      teamIndex: this.props.team ? this.props.team.index : false,
-      teamOrder: this.props.team ? this.props.team.order : (this.props.currentOrder || 0),
-      saveStarted: false,
+      teamName: this.props.team ? this.props.team.name : 'Gravity Analytica',
+      teamUrl: this.props.team ? this.props.team.url : 'http://chat.gravityanalytica.com',
+      teamIndex: this.props.team ? this.props.team.index : true,
+      teamOrder: 1,
+      saveStarted: true,
     });
   }
 
@@ -166,12 +166,12 @@ export default class NewTeamModal extends React.Component {
             <FormGroup
               validationState={this.getTeamNameValidationState()}
             >
-              <ControlLabel>{'Server Display Name'}</ControlLabel>
+              <ControlLabel>{'Gravity Analytica'}</ControlLabel>
               <FormControl
-                id='teamNameInput'
+                id='Gravity Analytica'
                 type='text'
-                value={this.state.teamName}
-                placeholder='Server Name'
+                value='Gravity Analytica'
+                placeholder='Gravity Analytica'
                 onChange={this.handleTeamNameChange}
                 inputRef={(ref) => {
                   this.teamNameInputRef = ref;
@@ -195,7 +195,7 @@ export default class NewTeamModal extends React.Component {
               <FormControl
                 id='teamUrlInput'
                 type='text'
-                value={this.state.teamUrl}
+                value='http://chat.gravityanalytica.com'
                 placeholder='http://chat.gravityanalytica.com'
                 onChange={this.handleTeamUrlChange}
                 onClick={(e) => {
