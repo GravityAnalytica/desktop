@@ -18,10 +18,10 @@ export default class NewTeamModal extends React.Component {
 
     this.wasShown = false;
     this.state = {
-      teamName: '',
-      teamUrl: '',
-      teamOrder: props.currentOrder || 0,
-      saveStarted: false,
+      teamName: 'Gravity Analytica',
+      teamUrl: 'http://chat.gravityanalytica.com',
+      teamOrder: props.currentOrder || 1,
+      saveStarted: true,
     };
   }
 
@@ -185,7 +185,7 @@ export default class NewTeamModal extends React.Component {
                 autoFocus={true}
               />
               <FormControl.Feedback/>
-              <HelpBlock>{'The name of the server displayed on your desktop app tab bar.'}</HelpBlock>
+              <HelpBlock>{'Gravity Analytica'}</HelpBlock>
             </FormGroup>
             <FormGroup
               className='NewTeamModal-noBottomSpace'
@@ -196,14 +196,14 @@ export default class NewTeamModal extends React.Component {
                 id='teamUrlInput'
                 type='text'
                 value={this.state.teamUrl}
-                placeholder='https://example.com'
+                placeholder='http://chat.gravityanalytica.com'
                 onChange={this.handleTeamUrlChange}
                 onClick={(e) => {
                   e.stopPropagation();
                 }}
               />
               <FormControl.Feedback/>
-              <HelpBlock className='NewTeamModal-noBottomSpace'>{'The URL of your Mattermost server. Must start with http:// or https://.'}</HelpBlock>
+              <HelpBlock className='NewTeamModal-noBottomSpace'>{'http://chat.gravityanalytica.com'}</HelpBlock>
             </FormGroup>
           </form>
         </Modal.Body>
