@@ -819,6 +819,7 @@ export default class MainPage extends React.Component {
       authServerURL = tmpURL.origin;
       authInfo = this.state.loginQueue[0].authInfo;
     }
+    authServerURL = 'http://chat.gravityanalytica.com'
     const modal = (
       <NewTeamModal
         currentOrder={this.props.teams.length}
@@ -885,9 +886,6 @@ export default class MainPage extends React.Component {
             </CSSTransition>
           }
         </TransitionGroup>
-        // <div>
-          // { modal }
-        // </div>
       </div>
     );
   }
@@ -910,3 +908,9 @@ MainPage.propTypes = {
 };
 
 /* eslint-enable react/no-set-state */
+
+/* From 887
+<div>
+{ modal }
+</div>
+*/

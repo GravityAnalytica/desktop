@@ -1,9 +1,9 @@
 {
   "publish": [{
     "provider": "generic",
-    "url": "https://releases.gravityanalytica.com/desktop/"
+    "url": "http://releases.gravityanalytica.com/desktop/"
   }],
-  "appId": "Mattermost.Desktop",
+  "appId": "GravityAnalytica.Chat",
   "artifactName": "${name}-${version}-${os}-${arch}.${ext}",
   "directories": {
     "buildResources": "resources",
@@ -97,7 +97,7 @@
     "iconTextSize": 13
   },
   "squirrelWindows": {
-    "iconUrl": "file://resources/icon.ico",
+    "iconUrl": "resources/icon.ico",
     "artifactName": "${name}-setup-${version}-${arch}.${ext}"
   },
   "win": {
