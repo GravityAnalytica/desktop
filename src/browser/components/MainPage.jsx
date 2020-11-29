@@ -811,8 +811,7 @@ export default class MainPage extends React.Component {
       </Fragment>);
 
     let request = null;
-    #let authServerURL = null;
-    let authServerURL = 'http://chat.gravityanalytica.com'
+    let authServerURL = null;
     let authInfo = null;
     if (this.state.loginQueue.length !== 0) {
       request = this.state.loginQueue[0].request;
@@ -886,9 +885,9 @@ export default class MainPage extends React.Component {
             </CSSTransition>
           }
         </TransitionGroup>
-        <div>
-          { modal }
-        </div>
+        // <div>
+          // { modal }
+        // </div>
       </div>
     );
   }
