@@ -1,7 +1,7 @@
 {
   "name": "gravity-analytica-chat",
   "productName": "Gravity Analytica LLC Chat",
-  "version": "4.7.0-develop",
+  "version": "1.0-develop",
   "description": "Gravity Analytica",
   "main": "main.js",
   "author": "Gravity Analytica LLC. <team@gravityanalytica.com>",

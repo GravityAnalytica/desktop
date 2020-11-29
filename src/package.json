@@ -1,8 +1,8 @@
 {
-  "name": "mattermost-desktop",
+  "name": "gravity-analytica-chat",
   "productName": "Gravity Analytica",
   "desktopName": "Gravity Analytica.desktop",
-  "version": "4.7.0-develop",
+  "version": "1.0-develop",
   "description": "Gravity Analytica",
   "main": "main_bundle.js",
   "author": "Gravity Analytica, LLC. <team@gravityanalytica.com>",
