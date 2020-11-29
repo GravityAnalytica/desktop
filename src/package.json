@@ -1,12 +1,12 @@
 {
   "name": "mattermost-desktop",
-  "productName": "Mattermost",
-  "desktopName": "Mattermost.desktop",
+  "productName": "Gravity Analytica",
+  "desktopName": "Gravity Analytica.desktop",
   "version": "4.7.0-develop",
-  "description": "Mattermost",
+  "description": "Gravity Analytica",
   "main": "main_bundle.js",
-  "author": "Mattermost, Inc. <feedback@mattermost.com>",
-  "homepage": "https://about.mattermost.com",
+  "author": "Gravity Analytica, LLC. <team@gravityanalytica.com>",
+  "homepage": "https://gravityanalytica.com",
   "license": "Apache-2.0",
   "dependencies": {
     "@hapi/joi": "^16.1.8",
