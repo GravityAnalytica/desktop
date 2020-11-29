@@ -1,7 +1,7 @@
 {
   "publish": [{
     "provider": "generic",
-    "url": "https://releases.mattermost.com/desktop/"
+    "url": "https://releases.gravityanalytica.com/desktop/"
   }],
   "appId": "Mattermost.Desktop",
   "artifactName": "${name}-${version}-${os}-${arch}.${ext}",
@@ -35,7 +35,7 @@
   "afterPack": "scripts/afterpack.js",
   "afterSign": "scripts/notarize.js",
   "deb": {
-    "synopsis": "Mattermost"
+    "synopsis": "GravityAnalytica"
   },
   "linux": {
     "category": "Network;InstantMessaging",
