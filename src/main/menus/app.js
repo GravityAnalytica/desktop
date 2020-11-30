@@ -39,14 +39,14 @@ function createTemplate(mainWindow, config, isDev) {
     },
   }];
 
-  if (config.enableServerManagement === true) {
+  /*if (config.enableServerManagement === true) {
     platformAppMenu.push({
       label: 'Sign in to Another Server',
       click() {
         mainWindow.webContents.send('add-server');
       },
     });
-  }
+  }*/
 
   platformAppMenu = platformAppMenu.concat(process.platform === 'darwin' ? [
     separatorItem, {
