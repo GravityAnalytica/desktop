@@ -25,7 +25,7 @@ const buildConfig = {
     }
   ],
   helpLink: 'https://about.mattermost.com/default-desktop-app-documentation/',
-  enableServerManagement: true,
+  enableServerManagement: false,
   enableAutoUpdater: true,
   managedResources: ['trusted'],
 };
