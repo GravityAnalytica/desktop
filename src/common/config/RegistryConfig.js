@@ -7,7 +7,7 @@ import {EventEmitter} from 'events';
 import WindowsRegistry from 'winreg';
 
 const REGISTRY_HIVE_LIST = [WindowsRegistry.HKLM, WindowsRegistry.HKCU];
-const BASE_REGISTRY_KEY_PATH = '\\Software\\Policies\\Mattermost';
+const BASE_REGISTRY_KEY_PATH = '\\Software\\Policies\\GravityAnalytica';
 
 /**
  * Handles loading config data from the Windows registry set manually or by GPO
