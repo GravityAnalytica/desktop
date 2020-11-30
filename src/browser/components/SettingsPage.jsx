@@ -675,8 +675,8 @@ export default class SettingsPage extends React.Component {
             toggleAddTeamForm={this.toggleShowTeamForm}
             setAddTeamFormVisibility={this.setShowTeamFormVisibility}
             onTeamsChange={this.handleTeamsChange}
-            updateTeam={this.updateTeam}
-            addServer={this.addServer}
+            //updateTeam={this.updateTeam}
+            //addServer={this.addServer}
             allowTeamEdit={this.state.enableTeamModification}
             onTeamClick={(index) => {
               backToIndex(this.state.localTeams[index].order + this.state.buildTeams.length + this.state.registryTeams.length);
@@ -692,27 +692,7 @@ export default class SettingsPage extends React.Component {
           md={10}
           xs={8}
         >
-          <h2 style={settingsPage.sectionHeading}>{'Server Management'}</h2>
-          <div className='IndicatorContainer'>
-            <AutoSaveIndicator
-              id='serversSaveIndicator'
-              savingState={this.state.savingState.servers}
-              errorMessage={'Can\'t save your changes. Please try again.'}
-            />
-          </div>
-        </Col>
-        <Col
-          md={2}
-          xs={4}
-        >
-          <p className='text-right'>
-            <a
-              style={settingsPage.sectionHeadingLink}
-              id='addNewServer'
-              href='#'
-              onClick={this.toggleShowTeamForm}
-            >{'+ Add New Server'}</a>
-          </p>
+          
         </Col>
       </Row>
     );
@@ -915,7 +895,7 @@ export default class SettingsPage extends React.Component {
       >
         {'Use GPU hardware acceleration'}
         <HelpBlock>
-          {'If enabled, Mattermost UI is rendered more efficiently but can lead to decreased stability for some systems.'}
+          {'If enabled, UI is rendered more efficiently but can lead to decreased stability for some systems.'}
           {' Setting takes effect after restarting the app.'}
         </HelpBlock>
       </Checkbox>
