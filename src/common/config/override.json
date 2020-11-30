@@ -1,0 +1,7 @@
+//override.js
+{
+  "1": {
+    "enableMultiTeams": false,
+    "enableServerManagement": false
+  }
+}

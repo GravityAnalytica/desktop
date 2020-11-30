@@ -692,7 +692,27 @@ export default class SettingsPage extends React.Component {
           md={10}
           xs={8}
         >
-          
+          <h2 style={settingsPage.sectionHeading}>{'Server Management'}</h2>
+          <div className='IndicatorContainer'>
+            <AutoSaveIndicator
+              id='serversSaveIndicator'
+              savingState={this.state.savingState.servers}
+              errorMessage={'Can\'t save your changes. Please try again.'}
+            />
+          </div>
+        </Col>
+        <Col
+          md={2}
+          xs={4}
+        >
+          <p className='text-right'>
+            <a
+              style={settingsPage.sectionHeadingLink}
+              id='addNewServer'
+              href='#'
+              onClick={this.toggleShowTeamForm}
+            >{'+ Add New Server'}</a>
+          </p>
         </Col>
       </Row>
     );
