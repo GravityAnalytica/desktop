@@ -97,7 +97,7 @@
     "iconTextSize": 13
   },
   "squirrelWindows": {
-    "iconUrl": "resources/icon.ico",
+    "iconUrl": "file://./resources/icon.ico",
     "artifactName": "${name}-setup-${version}-${arch}.${ext}"
   },
   "win": {
