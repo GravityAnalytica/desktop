@@ -170,8 +170,7 @@ export default class NewTeamModal extends React.Component {
               <FormControl
                 id='Gravity Analytica'
                 type='text'
-                value='Gravity Analytica'
-                placeholder='Gravity Analytica'
+                value={this.state.teamName}
                 onChange={this.handleTeamNameChange}
                 inputRef={(ref) => {
                   this.teamNameInputRef = ref;
@@ -191,19 +190,18 @@ export default class NewTeamModal extends React.Component {
               className='NewTeamModal-noBottomSpace'
               validationState={this.getTeamUrlValidationState()}
             >
-              <ControlLabel>{'Server URL'}</ControlLabel>
+              <ControlLabel>{'Gravity Analytica Chat URL'}</ControlLabel>
               <FormControl
                 id='teamUrlInput'
                 type='text'
-                value='http://chat.gravityanalytica.com'
-                placeholder='http://chat.gravityanalytica.com'
+                value={this.state.teamUrl}
                 onChange={this.handleTeamUrlChange}
                 onClick={(e) => {
                   e.stopPropagation();
                 }}
               />
               <FormControl.Feedback/>
-              <HelpBlock className='NewTeamModal-noBottomSpace'>{'http://chat.gravityanalytica.com'}</HelpBlock>
+              <HelpBlock className='NewTeamModal-noBottomSpace'>{this.state.teamUrl}</HelpBlock>
             </FormGroup>
           </form>
         </Modal.Body>
