@@ -35,7 +35,7 @@
   "afterPack": "scripts/afterpack.js",
   "afterSign": "scripts/notarize.js",
   "deb": {
-    "synopsis": "GravityAnalytica"
+    "synopsis": "GravityAnalytica - Chat"
   },
   "linux": {
     "category": "Network;InstantMessaging",
@@ -77,7 +77,8 @@
       }
     ],
     "hardenedRuntime": true,
-    "gatekeeperAssess": true
+    "gatekeeperAssess": true,
+    "icon": "icon.icns"
   },
   "dmg": {
     "background": "resources/osx/DMG_BG.png",
@@ -97,7 +98,7 @@
     "iconTextSize": 13
   },
   "squirrelWindows": {
-    "iconUrl": "file://./resources/icon.ico",
+    "iconUrl": "file://resources/icon.ico",
     "artifactName": "${name}-setup-${version}-${arch}.${ext}"
   },
   "win": {
