@@ -20,11 +20,11 @@
 const buildConfig = {
   defaultTeams: [
     {
-      name: 'Gravity Analytica',
+      name: 'Gravity Analytica - Chat',
       url: 'http://chat.gravityanalytica.com'
     }
   ],
-  helpLink: 'https://about.mattermost.com/default-desktop-app-documentation/',
+  helpLink: 'https://gravityanalytica.com/area51/library',
   enableServerManagement: false,
   enableAutoUpdater: true,
   managedResources: ['trusted'],
