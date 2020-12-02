@@ -77,8 +77,7 @@
       }
     ],
     "hardenedRuntime": true,
-    "gatekeeperAssess": true,
-    "icon": "icon.icns"
+    "gatekeeperAssess": true
   },
   "dmg": {
     "background": "resources/osx/DMG_BG.png",
