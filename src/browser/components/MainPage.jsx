@@ -656,7 +656,7 @@ export default class MainPage extends React.Component {
 
   render() {
     const self = this;
-    /*const tabsRow = (
+    const tabsRow = (
       <TabBar
         id='tabBar'
         isDarkMode={this.state.isDarkMode}
@@ -672,7 +672,7 @@ export default class MainPage extends React.Component {
         showAddServerButton={this.props.showAddServerButton}
         onDrop={this.handleDragAndDrop}
       />
-    );*/
+    );
 
     let topBarClassName = 'topBar';
     if (process.platform === 'darwin') {
@@ -793,7 +793,7 @@ export default class MainPage extends React.Component {
           handleInterTeamLink={self.handleInterTeamLink}
           ref={id}
           active={isActive}
-          allowExtraBar={this.showExtraBar()}
+          //allowExtraBar={this.showExtraBar()}
           isDarkMode={this.state.isDarkMode}
         />);
     });
