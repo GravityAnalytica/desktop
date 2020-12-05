@@ -17,6 +17,7 @@ const defaultPreferences = {
     bounceIcon: true,
     bounceIconType: 'informational',
   },
+  ExperimentalEnableDefaultChannelLeaveJoinMessages : true,
   showUnreadBadge: true,
   useSpellChecker: true,
   enableHardwareAcceleration: true,
